@@ -195,6 +195,7 @@ label {
 	font-size: 14px;
 	opacity: 1;
 }
+
 /* button style */
 .default-btn {
 	color: #fff;
@@ -208,6 +209,7 @@ label {
 	transition: all .3s ease;
 	text-decoration: none;
 }
+
 .default-btn:hover {
 	color: #fff;
 	background: #2B96CC;
@@ -634,9 +636,11 @@ label {
 .modal {
 	z-index: 9999999;
 }
+
 .modal-dialog {
 	margin: auto;
 }
+
 .product-search form {
 	position: relative;
 }
@@ -684,6 +688,7 @@ label {
 	width: 175px;
 	border-radius: 0;
 }
+
 .product-img {
 	position: relative;
 }
@@ -727,13 +732,20 @@ label {
 	font-weight: 600;
 	line-height: 1.5;
 	margin-bottom: 15px;
+	display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
+
 .zoom {
 	display: block;
 }
+
 .product-pagination ul li {
 	margin: 0 5px;
 }
+
 .product-pagination ul li a {
 	color: #253858;
 	font-size: 16px;
@@ -744,26 +756,32 @@ label {
 	padding: 0 12px;
 	text-decoration: none;
 }
-.product-pagination ul li:hover > a {
+
+.product-pagination ul li:hover>a {
 	background: rgba(37, 56, 88, 0.521);
 	color: #fff;
 	border-color: transparent;
 }
+
 .product-pagination ul li a.active {
 	background: #253858;
 	border-color: transparent;
 	color: #fff;
 }
+
 .product-details-popup .modal-dialog {
 	max-width: 80%;
 }
+
 .product-details-img img {
 	width: 100%;
 }
+
 .product-desc span {
 	font-size: 28px;
 	font-weight: 600;
 }
+
 /* section title */
 .section-title h3 {
 	font-size: 35px;
