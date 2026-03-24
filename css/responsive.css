@@ -26,6 +26,19 @@
     .slider-text h2 {
         font-size: 42px;
     }
+
+    .product-desc h3 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .product-search input {
+        width: 250px;
+    }
+
+    .profile-info {
+        border-radius: 0;
+    }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -54,6 +67,20 @@
     .slider-text h2 {
         font-size: 48px;
     }
+
+    .product-desc h3 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+
+    .product-search input {
+        width: 250px;
+    }
+
+    .profile-info {
+        border-radius: 0;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -73,6 +100,19 @@
     .header-area {
         padding-top: 15px;
         padding-bottom: 5px;
+    }
+
+    .product-desc h3 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .product-search input {
+        width: 250px;
+    }
+
+    .profile-info {
+        border-radius: 0;
     }
 
 }

@@ -68,7 +68,7 @@ a.meanmenu-reveal {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.mean-container .mean-nav ul li a {
+.mean-container .mean-nav ul li > a {
   color: #fff;
   display: block;
   float: left;
@@ -80,7 +80,7 @@ a.meanmenu-reveal {
   width: 100%;
 }
 
-.mean-container .mean-nav ul li li a {
+.mean-container .mean-nav ul li li > a {
   border-top: 1px solid rgba(255, 255, 255, 0.25);
   opacity: 0.75;
   padding: 10px 10%;
